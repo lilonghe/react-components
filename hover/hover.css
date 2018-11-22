@@ -1,0 +1,12 @@
+.hoverPanel {
+    display: none;
+    padding: 6px 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    color: #000;
+}
+
+.hoverWrapper:hover .hoverPanel{
+    display: block;
+}
+
